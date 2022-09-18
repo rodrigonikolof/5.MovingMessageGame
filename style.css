@@ -24,3 +24,10 @@ body {
     margin-left: 50%;
     color: red;
 }
+
+.timer{
+    margin-top: 0;
+    margin-left: 90%;
+    color: red;
+    width: 100px;
+}
