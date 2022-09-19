@@ -1,6 +1,9 @@
 body {
     background-color: rgb(15, 68, 50);
 }
+h2 {
+    padding: 3px;
+}
 .container {
     background-color: antiquewhite;
     position: absolute;
@@ -18,16 +21,32 @@ body {
     margin: 0 auto;
 }
 
-.start{
-    position: absolute;
-    margin-top: 25%;
-    margin-left: 50%;
-    color: red;
-}
-
 .timer{
     margin-top: 0;
     margin-left: 90%;
     color: red;
     width: 100px;
+}
+
+.hide-game{
+    visibility: hidden;
+}
+
+.difficulty{
+    position: absolute;
+    background-color: darkorange;
+    width: 400px;
+    height: 150px;
+    margin-top: 15%;
+    margin-left: 33%;
+}
+
+.difficultyButton{
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    margin-left: 5%;
+}
+.difficultyButton:hover{
+    cursor:pointer;
 }
